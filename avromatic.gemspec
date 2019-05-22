@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'activemodel', '>= 5.0', '< 5.3'
   spec.add_runtime_dependency 'activesupport', '>= 5.0', '< 5.3'
-  spec.add_runtime_dependency 'avro', '>= 1.7.7'
+  spec.add_runtime_dependency 'avro', '>= 1.7.7', '< 1.10.0'
   spec.add_runtime_dependency 'avro_schema_registry-client', '>= 0.3.0'
   spec.add_runtime_dependency 'avro_turf'
   spec.add_runtime_dependency 'ice_nine'

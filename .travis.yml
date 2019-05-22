@@ -1,8 +1,8 @@
 language: ruby
 rvm:
-  - 2.5.1
-  - 2.4.4
-  - 2.3.5
+  - 2.6.3
+  - 2.5.5
+  - 2.4.6
 before_script:
   - bundle exec appraisal install --jobs=3
 script:
